@@ -1,0 +1,14 @@
+Create a project
+Create an App 
+Setup Routing
+Setup Templating
+    install app in  INSTALLED_APPS list
+    set Template in TEMPLATES > DIRS
+    Output is=> loaded template with html dashboard of social book 
+Creating Profile Model
+register model with admin.py (in order to show in admin panel )
+Signup Process start
+    
+
+Got bug and learn:
+    loaded static css from cashe memory  of browser ( clean  by going  to browser setting=> clean by finding  by cache)
