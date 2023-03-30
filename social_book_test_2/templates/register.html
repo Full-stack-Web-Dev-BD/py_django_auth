@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">  
+ </head>
+  <body> 
+    
+    <a href="login">Go to Login  Page </a><br/>
+    <br/>
+    <br/>
+    <br/>
+    <div>
+      {% for message in messages %}
+        <p style="color:red">{{ message}}</p>
+      {% endfor %}
+    </div>
+    <form method="POST">
+      {% csrf_token %}
+      <input name="username" type="text" placeholder="Username" /><br/>
+      <input name="email" type="email" placeholder="Email" /><br/>
+      <input name="password" type="password" placeholder="Password" /><br/>
+      <input name="password2" type="password" placeholder="Password" /><br/>
+      <br/>
+      <button type="submit"> Register</button>
+    </form>
+  </body>
+</html>
